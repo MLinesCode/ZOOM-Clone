@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: lightgray;
+
+  .section {
+    background-color: red;
+  }
+}
+
+.list-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  .btn-menu {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .uil {
+    font-size: 1.5rem;
+  }
+}
+
+.title {
+  font-weight: 500;
+}
